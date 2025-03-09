@@ -4,11 +4,11 @@ from typing import List, Optional
 
 from app.database import get_db
 from app.crud import get_rackets
-from app.schemas import RacketCreate
+from app.schemas import RacketBase
 
 router = APIRouter(prefix="/rackets", tags=["Rackets"])
 
-@router.get("/", response_model=List[RacketCreate])
+@router.get("/", response_model=List[RacketBase])
 def list_rackets(
     db: Session = Depends(get_db),
     power_gt: Optional[int] = Query(None, description="Power greater than"),
