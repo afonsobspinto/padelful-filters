@@ -2,7 +2,7 @@
 
 I wanted to buy a padel racket as a birthday gift for my father, but the [Padelful](https://www.padelful.com/en/rackets) website lacked the filtering options I needed. 
 
-To solve this, I **scraped their data** and built an API that enables custom filtering. 
+To solve this, I [scraped their data](https://github.com/afonsobspinto/padelful-filters/blob/main/rackets.json) and built an API that enables custom filtering. 
 
 With this API, I can now effortlessly find the perfect padel racket for my dad based on attributes like **power, control, rebound, maneuverability, sweet spot, and overall rating**. 
 
